@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>James Julus — Front-end Developer</title>
-    <!-- Google Fonts -->
+    <title>James Julus — Front-end Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Karla:wght@400;700&display=swap" rel="stylesheet">
@@ -12,9 +11,10 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+
     <header class="site-header">
       <div class="container header-inner">
-  <a class="logo" href="#">James Julus</a>
+        <a class="logo" href="#">James Julus</a>
         <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
         <nav class="site-nav" id="site-nav">
           <ul>
@@ -28,6 +28,8 @@
     </header>
 
     <main>
+
+      <!-- HERO -->
       <section class="hero reveal">
         <div class="container hero-inner">
           <h1>Hi, I'm <span class="highlight">James Julus</span></h1>
@@ -39,106 +41,82 @@
         </div>
       </section>
 
-  <section id="about" class="section container about reveal">
+      <!-- ABOUT -->
+      <section id="about" class="section container about reveal">
         <h2>About me</h2>
         <div class="about-grid">
           <div>
-            <p>Hello — I'm a front-end web developer specializing in building clean, responsive, and accessible user interfaces. My core skills are HTML, CSS and JavaScript; I'm also familiar with responsive design patterns, CSS Grid & Flexbox, accessibility best practices (WCAG), version control with Git, basic Node.js tooling, and performance optimization techniques. I enjoy turning ideas into polished, production-ready websites. I'm also an avid coder who leverages AI-powered tools like Claude and GitHub Copilot to accelerate development and learn new technologies faster — the same way modern developers use documentation and frameworks.</p>
-            <p>Location: Your City — Email: <a href="mailto:jamesimbarashejulius@gmail.com">jamesimbarashejulius@gmail.com</a> — Phone: <a href="tel:0781968103">0781968103</a></p>
+            <p>Hello — I'm a front-end web developer specializing in building clean, responsive, and accessible user interfaces. My core skills are HTML, CSS and JavaScript; I'm also familiar with responsive design patterns, CSS Grid & Flexbox, accessibility best practices (WCAG), version control with Git, basic Node.js tooling, and performance optimization techniques. I enjoy turning ideas into polished, production-ready websites.</p>
+            <p>I'm also an avid coder who leverages AI-powered tools like Claude and GitHub Copilot to accelerate development and learn new technologies faster — the same way modern developers use documentation and frameworks.</p>
+            <p>Email: <a href="mailto:jamesimbarashejulius@gmail.com">jamesimbarashejulius@gmail.com</a> &nbsp;·&nbsp; Phone: <a href="tel:0781968103">0781968103</a></p>
           </div>
           <div class="profile-card">
             <div class="avatar" aria-hidden="true"></div>
-            <p><strong>Available for freelance & full-time work.</strong></p>
+            <p><strong>Available for freelance &amp; full-time work.</strong></p>
           </div>
         </div>
       </section>
 
-  <section id="projects" class="section container projects reveal">
+      <!-- PROJECTS -->
+      <section id="projects" class="section container projects reveal">
         <h2>Selected projects</h2>
         <div class="cards">
 
-          <!-- Project 1: Upgraded Shalom with full backend -->
-          <article class="card project-card">
-            <a class="preview-thumb" href="https://step-by-step-production-ad72.up.railway.app/login.html" target="_blank" rel="noopener" title="Open upgraded Shallom system">
-              <iframe src="https://step-by-step-production-ad72.up.railway.app/login.html" title="Shallom upgraded live preview" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
-            </a>
-
-            <div class="project-card-inner">
-              <div class="project-card-left">
-                <h3>Shallom High — School Management System</h3>
-                <p class="project-desc">A full-stack school management system with student, teacher and admin dashboards. Features attendance tracking, fee management, grade recording and role-based access. Built with Node.js, Express and PostgreSQL, deployed live on Railway.</p>
-
-                <div class="tag-list">
-                  <span class="tag-pill">HTML</span>
-                  <span class="tag-pill">CSS</span>
-                  <span class="tag-pill">JavaScript</span>
-                  <span class="tag-pill">Node.js</span>
-                  <span class="tag-pill">Express</span>
-                  <span class="tag-pill">PostgreSQL</span>
-                  <span class="tag-pill">JWT Auth</span>
-                  <span class="tag-pill">Railway</span>
-                </div>
-
-                <div class="project-actions">
-                  <a class="btn btn-live" href="https://step-by-step-production-ad72.up.railway.app/login.html" target="_blank" rel="noopener">Live Demo</a>
-                  <a class="btn btn-outline btn-source" href="https://github.com/James1234804/step-by-step" target="_blank" rel="noopener">Source</a>
-                </div>
+          <article class="card">
+            <a class="preview-thumb preview-shallom" href="https://step-by-step-production-ad72.up.railway.app/login.html" target="_blank" rel="noopener">
+              <div class="preview-label">
+                🏫 Shallom High School Management System
+                <span>Click to open live demo</span>
               </div>
+            </a>
+            <h3>Shallom High — School Management System</h3>
+            <p class="project-desc">A full-stack school management system with student, teacher and admin dashboards. Features attendance tracking, fee management, grade recording and role-based access. Built with Node.js, Express and PostgreSQL, deployed live on Railway.</p>
+            <div class="demo-credentials">
+              🔑 Demo login: <code>admin</code> / <code>admin123</code>
             </div>
-          </article>
-
-          <!-- Project 3: Personal Portfolio -->
-          <article class="card project-card">
-            <a class="preview-thumb" href="https://james1234804.github.io/personal-portifilio/" target="_blank" rel="noopener" title="Open personal portfolio">
-              <iframe src="https://james1234804.github.io/personal-portifilio/" title="Personal portfolio preview" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
-            </a>
-
-            <div class="project-card-inner">
-              <div class="project-card-left">
-                <h3>Personal Portfolio — James Julus</h3>
-                <p class="project-desc">My personal portfolio showcasing projects, skills and contact information.</p>
-
-                <div class="tag-list">
-                  <span class="tag-pill">HTML</span>
-                  <span class="tag-pill">CSS</span>
-                  <span class="tag-pill">JavaScript</span>
-                  <span class="tag-pill">Responsive</span>
-                  <span class="tag-pill">Accessibility</span>
-                </div>
-
-                <div class="project-actions">
-                  <a class="btn btn-live" href="https://james1234804.github.io/personal-portifilio/" target="_blank" rel="noopener">Live</a>
-                  <a class="btn btn-outline btn-source" href="https://github.com/james1234804/personal-portifilio" target="_blank" rel="noopener">Source</a>
-                </div>
-              </div>
+            <div class="tag-list">
+              <span class="tag-pill">HTML</span>
+              <span class="tag-pill">CSS</span>
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">Node.js</span>
+              <span class="tag-pill">Express</span>
+              <span class="tag-pill">PostgreSQL</span>
+              <span class="tag-pill">JWT Auth</span>
+              <span class="tag-pill">Railway</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-live" href="https://step-by-step-production-ad72.up.railway.app/login.html" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn btn-outline" href="https://github.com/James1234804/step-by-step" target="_blank" rel="noopener">Source</a>
             </div>
           </article>
 
         </div>
       </section>
 
-  <section id="skills" class="section container skills reveal">
+      <!-- SKILLS -->
+      <section id="skills" class="section container skills reveal">
         <h2>Skills</h2>
         <ul class="skill-list">
-          <li>HTML5 & Semantic Markup</li>
-          <li>CSS3 — Flexbox & Grid</li>
+          <li>HTML5 &amp; Semantic Markup</li>
+          <li>CSS3 — Flexbox &amp; Grid</li>
           <li>Modern JavaScript (ES6+)</li>
-          <li>Responsive & Mobile-first Design</li>
-          <li>Accessibility (WCAG) & ARIA</li>
-          <li>Version Control (Git & GitHub)</li>
-          <li>Build Tools (npm, bundlers) & Basic Node.js</li>
-          <li>Node.js & Express REST APIs</li>
-          <li>PostgreSQL & SQLite Databases</li>
-          <li>JWT Authentication & Role-based Access</li>
+          <li>Responsive &amp; Mobile-first Design</li>
+          <li>Accessibility (WCAG) &amp; ARIA</li>
+          <li>Version Control (Git &amp; GitHub)</li>
+          <li>Node.js &amp; Express REST APIs</li>
+          <li>PostgreSQL &amp; SQLite Databases</li>
+          <li>JWT Authentication &amp; Role-based Access</li>
           <li>Cloud Deployment (Railway)</li>
-          <li>Performance Optimization & Web Vitals</li>
-          <li>Cross-browser Testing & Debugging</li>
-          <li>Wordpress (Elementor)</li>
+          <li>Build Tools (npm, bundlers)</li>
+          <li>Performance Optimization &amp; Web Vitals</li>
+          <li>Cross-browser Testing &amp; Debugging</li>
+          <li>WordPress (Elementor)</li>
           <li>AI-assisted Development (Claude, GitHub Copilot)</li>
         </ul>
       </section>
 
-  <section id="contact" class="section container contact reveal">
+      <!-- CONTACT -->
+      <section id="contact" class="section container contact reveal">
         <h2>Contact</h2>
         <p>If you'd like to hire me or collaborate, send a message:</p>
         <form id="contact-form" class="contact-form" action="https://formsubmit.co/jamesimbarashejulius@gmail.com" method="POST" target="_blank">
@@ -167,14 +145,16 @@
           <p id="form-status" class="form-status" aria-live="polite"></p>
         </form>
       </section>
+
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-        <p>© <span id="year"></span> James Julius</p>
+      <div class="container">
+        <p>&copy; <span id="year"></span> James Julius</p>
       </div>
     </footer>
 
     <script src="js/script.js" defer></script>
+
   </body>
 </html>
